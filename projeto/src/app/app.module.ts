@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FormCadastroComponent } from './components/form-cadastro/form-cadastro.component';
 import { TabelaCadastroComponent } from './components/tabela-cadastro/tabela-cadastro.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FormCadastroComponent,
-    TabelaCadastroComponent
+    TabelaCadastroComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
