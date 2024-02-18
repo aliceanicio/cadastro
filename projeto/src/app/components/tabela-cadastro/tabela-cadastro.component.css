@@ -1,0 +1,25 @@
+div {
+    margin: 5vh 0;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    color: #29abe2;
+}
+
+.tabela {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    background-color: #29abe2;
+    display: flexbox;
+    justify-content: center;
+    margin: auto;
+}
+
+.header {
+    color: #012d51;
+    font-weight: bold;
+}
