@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FormCadastroComponent } from './components/form-cadastro/form-cadastro.component';
+import { TabelaCadastroComponent } from './components/tabela-cadastro/tabela-cadastro.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FormCadastroComponent
+    FormCadastroComponent,
+    TabelaCadastroComponent
   ],
   imports: [
     BrowserModule,
