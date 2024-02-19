@@ -1,10 +1,38 @@
+@font-face {
+    font-family: "Roboto Light";
+    src: url("Roboto-Light_0.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Helvetica Ultra";
+    src: url("HelveticaUltraLt_0.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Ps";
+    src: url("ps.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto Regular";
+    src: url("Roboto-Regular_0.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
 div {
     margin: 0;
 }
 
 .formulario {
     background-color: #29abe2;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto Regular';
     padding-bottom: 5vh;
 }
 
@@ -15,24 +43,47 @@ div {
     display: flex;
     justify-content: center;
     font-size: 2.5rem;
+    font-family: 'Roboto Light';
+    font-weight: 100;
 }
 
 .form-group {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Ps';
     font-size: 2rem;
     display: flex;
     justify-content: center;
     padding-bottom: 1.5rem;
 }
 
+.form-group input {
+    width: 500px;
+    background-color: #29abe2;
+    border-style: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-family: 'Ps';
+}
+
+input::placeholder {
+    color: #fff;
+    font-family: 'Ps';
+    font-weight: 100;
+}
+
 .cadastro-button p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto Regular';
     color: #29abe2;
-    font-size: 2.5rem;
+    font-size: 2rem;
     display: flex;
     justify-content: center;
     background-color: #012d51;
     padding: 1rem;
     width: fit-content;
     margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.cadastro-button:hover {
+    cursor: pointer;
 }

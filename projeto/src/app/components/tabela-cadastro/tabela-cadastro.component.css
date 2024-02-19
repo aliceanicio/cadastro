@@ -1,25 +1,84 @@
+@font-face {
+    font-family: "Roboto Light";
+    src: url("Roboto-Light_0.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Helvetica Ultra";
+    src: url("HelveticaUltraLt_0.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Ps";
+    src: url("ps.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto Regular";
+    src: url("Roboto-Regular_0.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
 div {
     margin: 5vh 0;
 }
 
 .titulo {
+    padding-bottom: 2rem;
+    margin: 0;
+    color: #29abe2;
     display: flex;
     justify-content: center;
-    color: #29abe2;
+    font-size: 2.5rem;
+    font-family: 'Roboto Light';
+    font-weight: 100;
 }
 
 .tabela {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Ps';
+    font-size: 1rem;
+    color: #808080;
+    margin-bottom: 3rem;
+}
+
+.numeracao {
+    color: #012d51;
+    font-weight: bold;
 }
 
 table {
-    background-color: #29abe2;
+    background-color: #fff;
     display: flexbox;
     justify-content: center;
     margin: auto;
 }
 
+td,
+tr {
+    border-bottom: 1px solid #29abe2;
+    border-right: 1px solid #29abe2;
+    border-spacing: none;
+    width: 150px;
+}
+
 .header {
     color: #012d51;
     font-weight: bold;
+}
+
+.header td {
+    padding: 18px;
+    text-align: center;
+}
+
+.informacoes p {
+    padding: 10px;
+    text-align: center;
 }
