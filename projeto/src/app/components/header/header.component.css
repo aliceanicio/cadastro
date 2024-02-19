@@ -1,3 +1,31 @@
+@font-face {
+    font-family: "Roboto Light";
+    src: url("Roboto-Light_0.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Helvetica Ultra";
+    src: url("HelveticaUltraLt_0.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Ps";
+    src: url("ps.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto Regular";
+    src: url("Roboto-Regular_0.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
 .header {
     background-image: url('/assets/images/index-image.jpg');
     background-size: cover;
@@ -13,41 +41,57 @@
     padding-top: 1vh;
 }
 
-.right-pos a {
+.right-pos .link {
     color: #fff;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto Light';
     padding-right: 5px;
-    font-size: 20px;
+    font-size: 1rem;
+    font-weight: 100;
 }
 
-.right-pos a:hover {
+.right-pos .bullet,
+.bullet:hover {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Roboto Light';
+    padding-right: 5px;
+    font-size: 1rem;
+    cursor: default;
+}
+
+.right-pos .link:hover {
     text-decoration: underline;
 }
 
 .selecao {
     color: #fff;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto Light';
+    font-weight: 100;
 }
 
 .texto1,
 .texto2 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto Light';
+    font-weight: 100;
     color: #fff
 }
 
 .texto1 {
     font-size: 5rem;
     margin-bottom: 0;
+    font-weight: 100;
 }
 
 .texto2 {
     font-size: 2.2rem;
     margin-top: 1vh;
+    font-weight: 100;
 }
 
 .left-pos {
-    padding-left: 60vh;
+    padding-left: 50vh;
     padding-top: 15vh;
+    font-weight: 100;
 }

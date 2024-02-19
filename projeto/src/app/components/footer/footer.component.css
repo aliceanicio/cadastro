@@ -1,9 +1,37 @@
+@font-face {
+    font-family: "Roboto Light";
+    src: url("Roboto-Light_0.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Helvetica Ultra";
+    src: url("HelveticaUltraLt_0.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Ps";
+    src: url("ps.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto Regular";
+    src: url("Roboto-Regular_0.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
 .header {
     background-image: url('/assets/images/rodape-desktop.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 33vh;
+    height: 38vh;
 }
 
 .footer {
